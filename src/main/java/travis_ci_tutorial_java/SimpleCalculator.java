@@ -13,5 +13,8 @@ public class SimpleCalculator {
 	public int multiply(int a, int b) {
 		return a * b;
 	}
+	public String dividebyzero(int a, int b) {
+		return "Not possible"; 
+	}
 }
 
