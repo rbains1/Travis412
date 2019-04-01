@@ -9,6 +9,6 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testAdd() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.divide(6, 3), 2);
+		assertEquals(calc.multiply(2, 1), 2);
 	}
 }
